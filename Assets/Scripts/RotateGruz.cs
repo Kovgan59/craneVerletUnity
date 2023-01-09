@@ -13,12 +13,12 @@ public class RotateGruz : MonoBehaviour
      {
          if (Input.GetKey(KeyCode.Q))
          {
-             transform.localRotation = Quaternion.Euler(0, -0.05f, 0) * transform.localRotation;
+             transform.localRotation = Quaternion.Euler(0, -0.5f, 0) * transform.localRotation;
              // Debug.Log('Q');
          }
          if (Input.GetKey(KeyCode.E))
          {
-             transform.localRotation = Quaternion.Euler(0, 0.05f, 0) * transform.localRotation;
+             transform.localRotation = Quaternion.Euler(0, 0.5f, 0) * transform.localRotation;
              // Debug.Log('E');
          }
      }

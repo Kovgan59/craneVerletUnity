@@ -13,11 +13,11 @@ public class MoveStrela : MonoBehaviour
         if ((Input.GetKey(KeyCode.S)) && (transform.localPosition.x >= min_pos))
         {
             // Debug.Log('S');
-            transform.localPosition += new Vector3(-0.005f, 0, 0);
+            transform.localPosition += new Vector3(-0.05f, 0, 0);
         }
         if ((Input.GetKey(KeyCode.W))&& (transform.localPosition.x <= max_pos))
         {
-            transform.localPosition += new Vector3(0.005f, 0, 0);
+            transform.localPosition += new Vector3(0.05f, 0, 0);
             // Debug.Log('W');
         }
     }
